@@ -1,0 +1,35 @@
+<!--pages/cal/cal.wxml-->
+<view class="section_main">
+  <view class="text1">{{calTxt}}</view>
+  <view class="calnum">
+    <view class="num orange" id="{{id1}}" bindtap="getval">清空</view>
+    <view class="num orange" id="{{id2}}" bindtap="getval">退格</view>
+    <view class="num orange" id="{{id3}}" bindtap="getval">+/-</view>
+    <view class="num orange" id="{{id4}}" bindtap="getval">+</view>
+  </view>
+  <view class="calnum">
+    <view class="num blue" id="{{id5}}" bindtap="getval">1</view>
+    <view class="num blue" id="{{id6}}" bindtap="getval">2</view>
+    <view class="num blue" id="{{id7}}" bindtap="getval">3</view>
+    <view class="num orange" id="{{id8}}" bindtap="getval">-</view>
+  </view>
+  <view class="calnum">
+    <view class="num blue" id="{{id9}}" bindtap="getval">4</view>
+    <view class="num blue" id="{{id10}}" bindtap="getval">5</view>
+    <view class="num blue" id="{{id11}}" bindtap="getval">6</view>
+    <view class="num orange" id="{{id12}}" bindtap="getval">*</view>
+  </view>
+  <view class="calnum">
+    <view class="num blue" id="{{id13}}" bindtap="getval">7</view>
+    <view class="num blue" id="{{id14}}" bindtap="getval">8</view>
+    <view class="num blue" id="{{id15}}" bindtap="getval">9</view>
+    <view class="num orange" id="{{id16}}" bindtap="getval">\</view>
+  </view>
+  <view class="calnum">
+    <view class="num blue" id="{{id17}}" bindtap="getval">历史</view>
+    <view class="num blue" id="{{id18}}" bindtap="getval">0</view>
+    <view class="num blue" id="{{id19}}" bindtap="getval">.</view>
+    <view class="num orange" id="{{id20}}" bindtap="getval">=</view>
+  </view>
+  <button> 结束 </button>
+</view>

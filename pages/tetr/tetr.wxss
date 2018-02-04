@@ -1,0 +1,102 @@
+/* pages/cal/cal.wxss */
+
+.body_main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #181c27;
+  /* background-image: url("../res/img/66.png"); */
+  background-repeat: repeat;
+  padding-top: 30rpx;
+}
+
+.score {
+  color: white;
+  margin-top: -8px;
+  margin-bottom:3px;
+  font-size: 12px;
+}
+
+.pause {
+  color: white;
+}
+
+.firstCanvas {
+  width: 250px;
+  height: 425px;
+  margin: 0 auto;
+}
+
+.flex-row-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row {
+  color: white;
+  width: 250rpx;
+  height: 100rpx;
+  /* margin:10rpx;*/
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150rpx;
+  margin: 0 auto;
+}
+
+.flex-row-rl {
+  color: white;
+  width: 150rpx;
+  height: 100rpx;
+  /* margin:10rpx;*/
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150rpx;
+  margin: -31px 10px;
+}
+
+.tetris {
+  border: 4px solid black;
+}
+
+.text1 {
+  background-color: #fff;
+  border-radius: 3px;
+  text-align: right;
+  width: 720rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-right: 10rpx;
+  margin-bottom: 30rpx;
+}
+
+.calnum {
+  display: flex;
+  flex-direction: row;
+}
+
+.num {
+  width: 160rpx;
+  height: 150rpx;
+  margin: 10rpx;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150rpx;
+}
+
+.orange {
+  color: #fef4e9;
+  border: solid 1px #da7c0c;
+  background: #f78d1d;
+}
+
+.blue {
+  color: #d9eef7;
+  border: solid 1px #0076a3;
+  background: #0095cd;
+}
